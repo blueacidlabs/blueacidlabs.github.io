@@ -7,10 +7,10 @@
   <title>Blue Acid Lab | Simple Apps for Everyday Life</title>
   
   <!-- Google AdSense Verification Code -->
-  
+
+
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9812928638320313"
      crossorigin="anonymous"></script>
-
 
 
 
@@ -58,6 +58,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
 
     .logo {
@@ -67,7 +69,7 @@
       text-decoration: none;
       display: flex;
       align-items: center;
-      gap: 0.5r em;
+      gap: 0.4rem;
     }
 
     .logo span {
@@ -76,7 +78,8 @@
 
     .nav-links {
       display: flex;
-      gap: 1.5rem;
+      gap: 1.25rem;
+      flex-wrap: wrap;
     }
 
     .nav-links a {
@@ -215,6 +218,7 @@
     footer a {
       color: var(--accent);
       text-decoration: none;
+      margin: 0 0.4rem;
     }
 
     footer a:hover {
@@ -222,9 +226,6 @@
     }
 
     @media (max-width: 600px) {
-      .nav-links {
-        display: none;
-      }
       .hero {
         padding: 2.5rem 1rem;
       }
@@ -235,18 +236,19 @@
 
   <header>
     <div class="nav-container">
-      <a href="#" class="logo">Blue Acid <span>Lab</span></a>
+      <a href="index.html" class="logo">Blue Acid <span>Lab</span></a>
       <nav class="nav-links">
         <a href="#about">About</a>
         <a href="#apps">Apps</a>
         <a href="#contact">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <h1> Simple Apps for <span>Everyday Life</span></h1>
+      <h1>Simple Apps for <span>Everyday Life</span></h1>
       <p>Blue Acid Lab builds simple, clean, and useful tools designed to make your daily tasks effortless.</p>
       <a href="#apps" class="btn">Explore Apps</a>
     </section>
@@ -263,7 +265,7 @@
           <p>Streamlined utilities to easily capture, read, and manage information on the go.</p>
         </div>
         <div class="card">
-          <h3>Touch & Utilities</h3>
+          <h3>Touch &amp; Utilities</h3>
           <p>Responsive, minimalist interface applications built to handle daily micro-tasks seamlessly.</p>
         </div>
       </div>
@@ -289,7 +291,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Blue Acid Lab. All rights reserved. | Hosted on <a href="https://github.com/blueacidlabs" target="_blank" rel="noopener">GitHub Pages</a></p>
+    <p>&copy; 2026 Blue Acid Lab. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | Hosted on <a href="https://github.com/blueacidlabs" target="_blank" rel="noopener">GitHub Pages</a></p>
   </footer>
 
 </body>
